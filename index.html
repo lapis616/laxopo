@@ -1,5 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo animado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<text>Caxopo</text>
-<img src="https://cdn.discordapp.com/attachments/964206521560997890/1102611330260815992/oriental-17.gif">
-<img src="https://static.lavozdigital.es/media/opinion/2021/11/07/v/vanpiro-esiten-kKiD--1200x630@abc.jpg">
-<text>¡Vanpiro esiten!</text>
+    <header class="bg_animate">
+         <div class="header_nav">
+            <div class="contenedor">
+                <h1>Laxopo</h1>
+                <nav>
+                    <a href="#" class="Inicio">Inicio</a>   
+                    <a href="/servicios.html" class="Servicios">Servicios</a>
+                    <a href="#" class="Contactos">Contactos</a>          
+                </nav>
+            </div>    
+        </div> 
+        
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <h2>Laxopo en tu <br> Móvil</h2>
+                <a href="#" class="llamanos">Llamanos ya!</a>
+            </secrion>
+
+        </div>
+        </secrion>
+
+            <div class="banner_img">
+                <img src="caxopo.png" alt="">
+                <script src="vanilla-tilt.min.js"></script>
+         <script>
+            VanillaTilt.init(document.querySelectorAll(".banner_img"), {
+		max: 25,
+		speed: 400
+	});
+         </script> 
+            </div>
+        </section>
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+    <script>
+        let navigation=document.querySelector('.navigation');
+        document.querySelector('.toggle').onclick = function(){
+            this.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
+
+
