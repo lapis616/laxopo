@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Inicio{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Servicios{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Contactos{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
